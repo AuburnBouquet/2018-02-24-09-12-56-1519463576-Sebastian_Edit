@@ -6,7 +6,7 @@ describe('double_to_one', function() {
 
   var collection = [1, [2], [3, 4]];
 
-  iit('把二维数组变成一维数组', function() {
+  it('把二维数组变成一维数组', function() {
 
     var result = double_to_one(collection);
 

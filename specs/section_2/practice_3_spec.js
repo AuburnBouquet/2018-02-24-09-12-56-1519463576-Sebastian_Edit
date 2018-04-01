@@ -16,7 +16,7 @@ describe('practice-2-3', function() {
     "d-5" // d-5 : re1.test(collection[i]) && re2.test(collection[i]) && typeof hash[collection_a[i]] !== "true"
   ];
 
-  iit("把A集合中相同的元素统计出数量", function() {
+  it("把A集合中相同的元素统计出数量", function() {
     var result = count_same_elements(collection);
 
     expect(result).toEqual([

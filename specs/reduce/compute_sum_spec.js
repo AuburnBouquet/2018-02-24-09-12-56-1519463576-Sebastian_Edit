@@ -6,7 +6,7 @@ describe('compute_elements_sum', function() {
 
   var collection = [1, 2, 3, 4, 5];
 
-  iit('计算给定集合元素的总和', function() {
+  it('计算给定集合元素的总和', function() {
     var result = compute_elements_sum(collection);
 
     expect(result).toEqual(15);
